@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Migration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.20.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Imoby.Domain\Imoby.Domain.csproj" />
+    <ProjectReference Include="..\Imoby.Entities\Imoby.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
