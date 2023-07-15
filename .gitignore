@@ -7,3 +7,7 @@
 /Imoby.Domain/obj
 /Imoby.Entities/obj
 /Imoby.Infra/obj
+/.vs/ProjectEvaluation
+/Imoby.Domain/bin/Debug/net7.0
+/Imoby.Entities/bin/Debug/net7.0
+/Imoby.Infra/bin/Debug/net7.0
