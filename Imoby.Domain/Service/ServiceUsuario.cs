@@ -12,5 +12,8 @@ public class ServiceUsuario : ServiceBase<Usuario> , IServiceUsuario
     }
 
 
-   
+    public bool GetEmailExist(string email)
+    {
+       return _repositoryUsuario.GetEmailExist(email);
+    }
 }
