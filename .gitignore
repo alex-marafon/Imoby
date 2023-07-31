@@ -11,3 +11,11 @@
 /Imoby.Domain/bin/Debug/net7.0
 /Imoby.Entities/bin/Debug/net7.0
 /Imoby.Infra/bin/Debug/net7.0
+/Imoby.Api/bin/Debug/net7.0/Imoby.Api.dll
+/Imoby.Api/bin/Debug/net7.0/Imoby.Api.pdb
+/Imoby.Api/bin/Debug/net7.0/Imoby.Domain.dll
+/Imoby.Api/bin/Debug/net7.0/Imoby.Domain.pdb
+/Imoby.Api/bin/Debug/net7.0/Imoby.Entities.dll
+/Imoby.Api/bin/Debug/net7.0/Imoby.Entities.pdb
+/Imoby.Api/bin/Debug/net7.0/Imoby.Infra.dll
+/Imoby.Api/bin/Debug/net7.0/Imoby.Infra.pdb
