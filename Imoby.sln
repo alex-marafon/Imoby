@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imoby.Api", "Imoby.Api\Imoby.Api.csproj", "{C82A207D-982D-42BE-9C5F-0F02DA9EAAE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imoby.Api", "Imoby.Api\Imoby.Api.csproj", "{C82A207D-982D-42BE-9C5F-0F02DA9EAAE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imoby.Domain", "Imoby.Domain\Imoby.Domain.csproj", "{94EA26F9-89CF-4408-8312-70E2F4F42A03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imoby.Domain", "Imoby.Domain\Imoby.Domain.csproj", "{94EA26F9-89CF-4408-8312-70E2F4F42A03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imoby.Infra", "Imoby.Infra\Imoby.Infra.csproj", "{B2DE25CC-37DE-4C34-B8B0-C526AA3E4E13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imoby.Infra", "Imoby.Infra\Imoby.Infra.csproj", "{B2DE25CC-37DE-4C34-B8B0-C526AA3E4E13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imoby.Entities", "Imoby.Entities\Imoby.Entities.csproj", "{8D3B73A2-6790-4D34-AE5F-2FF842C3F678}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imoby.Entities", "Imoby.Entities\Imoby.Entities.csproj", "{8D3B73A2-6790-4D34-AE5F-2FF842C3F678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imoby.Auth", "Imoby.Auth\Imoby.Auth.csproj", "{EE29C062-1874-4B78-93D0-2F39469461DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8D3B73A2-6790-4D34-AE5F-2FF842C3F678}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D3B73A2-6790-4D34-AE5F-2FF842C3F678}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D3B73A2-6790-4D34-AE5F-2FF842C3F678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE29C062-1874-4B78-93D0-2F39469461DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE29C062-1874-4B78-93D0-2F39469461DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE29C062-1874-4B78-93D0-2F39469461DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE29C062-1874-4B78-93D0-2F39469461DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
